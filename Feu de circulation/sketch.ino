@@ -21,7 +21,7 @@ void phase(int ledPin, const char* name, int seconds){
     lcd.clear();
     lcd.print(name);
     lcd.setCursor(0,1);
-    lcd.print("mzel==> ");
+    lcd.print(": ");
     lcd.print(s);
     lcd.print("s");
     delay(1000);
